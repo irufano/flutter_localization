@@ -1,16 +1,21 @@
 # flutter_localization
 
-A new Flutter project.
+Flutter Localization
 
-## Getting Started
+## Cheatsheet
 
-This project is a starting point for a Flutter application.
+### Create resource bundles (.arb files)
 
-A few resources to get you started if this is your first Flutter project:
+In your Terminal and run the following command to create the arb files:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+$ flutter pub run intl_translation:extract_to_arb --output-dir=lib/l10n lib/locale/app_localization.dart
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+### Create the corresponding .dart
+
+In your Terminal and run the following command :
+
+$ flutter pub run intl_translation:generate_from_arb \
+--output-dir=lib/l10n --no-use-deferred-loading \
+lib/l10n/intl_messages.arb lib/l10n/intl_id.arb lib/l10n/intl_en.arb lib/locale/app_localization.dart
+

@@ -1,0 +1,21 @@
+{
+  "@@last_modified": "2020-01-01T15:15:25.739984",
+  "heyWorld": "Hey World",
+  "@heyWorld": {
+    "description": "Simpel word for greeting ",
+    "type": "text",
+    "placeholders": {}
+  },
+  "secondPage": "Second Page",
+  "@secondPage": {
+    "description": "Simpel word for Second Page",
+    "type": "text",
+    "placeholders": {}
+  },
+  "homePage": "Home Page",
+  "@homePage": {
+    "description": "Simpel word for Home Page",
+    "type": "text",
+    "placeholders": {}
+  }
+}

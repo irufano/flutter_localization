@@ -1,0 +1,21 @@
+{
+  "@@last_modified": "2020-01-01T14:38:30.787438",
+  "heyWorld": "Hey Dunia",
+  "@heyWorld": {
+    "description": "Kalimat pembuka sederhana",
+    "type": "text",
+    "placeholders": {}
+  },
+  "secondPage": "Halaman Kedua",
+  "@secondPage": {
+    "description": "Halaman kedua simpel",
+    "type": "text",
+    "placeholders": {}
+  },
+  "homePage": "Beranda",
+  "@homePage": {
+    "description": "Beranda simpel",
+    "type": "text",
+    "placeholders": {}
+  }
+}
